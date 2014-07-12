@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97080A951971B86400DB2BED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97080A941971B86400DB2BED /* Foundation.framework */; };
+		97080A971971B86400DB2BED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97080A961971B86400DB2BED /* CoreGraphics.framework */; };
+		97080A991971B86400DB2BED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97080A981971B86400DB2BED /* UIKit.framework */; };
+		97080A9F1971B86400DB2BED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97080A9D1971B86400DB2BED /* InfoPlist.strings */; };
+		97080AA11971B86400DB2BED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97080AA01971B86400DB2BED /* main.m */; };
+		97080AA51971B86400DB2BED /* JustUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97080AA41971B86400DB2BED /* JustUAppDelegate.m */; };
+		97080AA81971B86400DB2BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97080AA61971B86400DB2BED /* Main.storyboard */; };
+		97080AAB1971B86400DB2BED /* JustUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97080AAA1971B86400DB2BED /* JustUViewController.m */; };
+		97080AAD1971B86400DB2BED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97080AAC1971B86400DB2BED /* Images.xcassets */; };
+		97080AB41971B86400DB2BED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97080AB31971B86400DB2BED /* XCTest.framework */; };
+		97080AB51971B86400DB2BED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97080A941971B86400DB2BED /* Foundation.framework */; };
+		97080AB61971B86400DB2BED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97080A981971B86400DB2BED /* UIKit.framework */; };
+		97080ABE1971B86400DB2BED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97080ABC1971B86400DB2BED /* InfoPlist.strings */; };
+		97080AC01971B86400DB2BED /* JustUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97080ABF1971B86400DB2BED /* JustUTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97080AB71971B86400DB2BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97080A891971B86400DB2BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97080A901971B86400DB2BED;
+			remoteInfo = JustU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97080A911971B86400DB2BED /* JustU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97080A941971B86400DB2BED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		97080A961971B86400DB2BED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		97080A981971B86400DB2BED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		97080A9C1971B86400DB2BED /* JustU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JustU-Info.plist"; sourceTree = "<group>"; };
+		97080A9E1971B86400DB2BED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		97080AA01971B86400DB2BED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97080AA21971B86400DB2BED /* JustU-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JustU-Prefix.pch"; sourceTree = "<group>"; };
+		97080AA31971B86400DB2BED /* JustUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JustUAppDelegate.h; sourceTree = "<group>"; };
+		97080AA41971B86400DB2BED /* JustUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustUAppDelegate.m; sourceTree = "<group>"; };
+		97080AA71971B86400DB2BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97080AA91971B86400DB2BED /* JustUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JustUViewController.h; sourceTree = "<group>"; };
+		97080AAA1971B86400DB2BED /* JustUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustUViewController.m; sourceTree = "<group>"; };
+		97080AAC1971B86400DB2BED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		97080AB21971B86400DB2BED /* JustUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97080AB31971B86400DB2BED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		97080ABB1971B86400DB2BED /* JustUTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JustUTests-Info.plist"; sourceTree = "<group>"; };
+		97080ABD1971B86400DB2BED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		97080ABF1971B86400DB2BED /* JustUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustUTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97080A8E1971B86400DB2BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97080A971971B86400DB2BED /* CoreGraphics.framework in Frameworks */,
+				97080A991971B86400DB2BED /* UIKit.framework in Frameworks */,
+				97080A951971B86400DB2BED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97080AAF1971B86400DB2BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97080AB41971B86400DB2BED /* XCTest.framework in Frameworks */,
+				97080AB61971B86400DB2BED /* UIKit.framework in Frameworks */,
+				97080AB51971B86400DB2BED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97080A881971B86400DB2BED = {
+			isa = PBXGroup;
+			children = (
+				97080A9A1971B86400DB2BED /* JustU */,
+				97080AB91971B86400DB2BED /* JustUTests */,
+				97080A931971B86400DB2BED /* Frameworks */,
+				97080A921971B86400DB2BED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97080A921971B86400DB2BED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97080A911971B86400DB2BED /* JustU.app */,
+				97080AB21971B86400DB2BED /* JustUTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97080A931971B86400DB2BED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97080A941971B86400DB2BED /* Foundation.framework */,
+				97080A961971B86400DB2BED /* CoreGraphics.framework */,
+				97080A981971B86400DB2BED /* UIKit.framework */,
+				97080AB31971B86400DB2BED /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97080A9A1971B86400DB2BED /* JustU */ = {
+			isa = PBXGroup;
+			children = (
+				97080AA31971B86400DB2BED /* JustUAppDelegate.h */,
+				97080AA41971B86400DB2BED /* JustUAppDelegate.m */,
+				97080AA61971B86400DB2BED /* Main.storyboard */,
+				97080AA91971B86400DB2BED /* JustUViewController.h */,
+				97080AAA1971B86400DB2BED /* JustUViewController.m */,
+				97080AAC1971B86400DB2BED /* Images.xcassets */,
+				97080A9B1971B86400DB2BED /* Supporting Files */,
+			);
+			path = JustU;
+			sourceTree = "<group>";
+		};
+		97080A9B1971B86400DB2BED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97080A9C1971B86400DB2BED /* JustU-Info.plist */,
+				97080A9D1971B86400DB2BED /* InfoPlist.strings */,
+				97080AA01971B86400DB2BED /* main.m */,
+				97080AA21971B86400DB2BED /* JustU-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97080AB91971B86400DB2BED /* JustUTests */ = {
+			isa = PBXGroup;
+			children = (
+				97080ABF1971B86400DB2BED /* JustUTests.m */,
+				97080ABA1971B86400DB2BED /* Supporting Files */,
+			);
+			path = JustUTests;
+			sourceTree = "<group>";
+		};
+		97080ABA1971B86400DB2BED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97080ABB1971B86400DB2BED /* JustUTests-Info.plist */,
+				97080ABC1971B86400DB2BED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97080A901971B86400DB2BED /* JustU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97080AC31971B86400DB2BED /* Build configuration list for PBXNativeTarget "JustU" */;
+			buildPhases = (
+				97080A8D1971B86400DB2BED /* Sources */,
+				97080A8E1971B86400DB2BED /* Frameworks */,
+				97080A8F1971B86400DB2BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustU;
+			productName = JustU;
+			productReference = 97080A911971B86400DB2BED /* JustU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97080AB11971B86400DB2BED /* JustUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97080AC61971B86400DB2BED /* Build configuration list for PBXNativeTarget "JustUTests" */;
+			buildPhases = (
+				97080AAE1971B86400DB2BED /* Sources */,
+				97080AAF1971B86400DB2BED /* Frameworks */,
+				97080AB01971B86400DB2BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97080AB81971B86400DB2BED /* PBXTargetDependency */,
+			);
+			name = JustUTests;
+			productName = JustUTests;
+			productReference = 97080AB21971B86400DB2BED /* JustUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97080A891971B86400DB2BED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JustU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AmoghAnusha;
+				TargetAttributes = {
+					97080AB11971B86400DB2BED = {
+						TestTargetID = 97080A901971B86400DB2BED;
+					};
+				};
+			};
+			buildConfigurationList = 97080A8C1971B86400DB2BED /* Build configuration list for PBXProject "JustU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97080A881971B86400DB2BED;
+			productRefGroup = 97080A921971B86400DB2BED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97080A901971B86400DB2BED /* JustU */,
+				97080AB11971B86400DB2BED /* JustUTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97080A8F1971B86400DB2BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97080AAD1971B86400DB2BED /* Images.xcassets in Resources */,
+				97080A9F1971B86400DB2BED /* InfoPlist.strings in Resources */,
+				97080AA81971B86400DB2BED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97080AB01971B86400DB2BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97080ABE1971B86400DB2BED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97080A8D1971B86400DB2BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97080AAB1971B86400DB2BED /* JustUViewController.m in Sources */,
+				97080AA51971B86400DB2BED /* JustUAppDelegate.m in Sources */,
+				97080AA11971B86400DB2BED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97080AAE1971B86400DB2BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97080AC01971B86400DB2BED /* JustUTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97080AB81971B86400DB2BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97080A901971B86400DB2BED /* JustU */;
+			targetProxy = 97080AB71971B86400DB2BED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97080A9D1971B86400DB2BED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97080A9E1971B86400DB2BED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		97080AA61971B86400DB2BED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97080AA71971B86400DB2BED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97080ABC1971B86400DB2BED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97080ABD1971B86400DB2BED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97080AC11971B86400DB2BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97080AC21971B86400DB2BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97080AC41971B86400DB2BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustU/JustU-Prefix.pch";
+				INFOPLIST_FILE = "JustU/JustU-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		97080AC51971B86400DB2BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustU/JustU-Prefix.pch";
+				INFOPLIST_FILE = "JustU/JustU-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		97080AC71971B86400DB2BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JustU.app/JustU";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustU/JustU-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JustUTests/JustUTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		97080AC81971B86400DB2BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JustU.app/JustU";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustU/JustU-Prefix.pch";
+				INFOPLIST_FILE = "JustUTests/JustUTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97080A8C1971B86400DB2BED /* Build configuration list for PBXProject "JustU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97080AC11971B86400DB2BED /* Debug */,
+				97080AC21971B86400DB2BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97080AC31971B86400DB2BED /* Build configuration list for PBXNativeTarget "JustU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97080AC41971B86400DB2BED /* Debug */,
+				97080AC51971B86400DB2BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		97080AC61971B86400DB2BED /* Build configuration list for PBXNativeTarget "JustUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97080AC71971B86400DB2BED /* Debug */,
+				97080AC81971B86400DB2BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97080A891971B86400DB2BED /* Project object */;
+}
