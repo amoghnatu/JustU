@@ -1,13 +1,15 @@
 //
-//  JustUViewController.h
+//  JustUNewsSource.m
 //  JustU
 //
 //  Created by Anusha Tondapu on 13/07/14.
 //  Copyright (c) 2014 AmoghAnusha. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "JustUNewsSource.h"
 
-@interface JustUViewController : UIViewController
+@implementation JustUNewsSource
+
+@synthesize title,contentSnippet,link,url;
 
 @end
